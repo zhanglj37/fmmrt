@@ -1,0 +1,19 @@
+Package: fmmrt
+Type: Package
+Title: Bayesian Factor Mixture Modeling with Response Time
+Version: 0.1.0
+Author: Lijin Zhang
+Maintainer: Lijin Zhang <lijin.zhang@stanford.edu>
+Description: Implements a Bayesian factor mixture model that jointly models
+    item responses and response times to identify attentive and careless
+    respondents. The package fits a two class mixture model using JAGS,
+    combining a factor analytic response model with a response time model
+    to improve classification and parameter estimation in survey data.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Imports: 
+    coda,
+    R2jags,
+    rjags
