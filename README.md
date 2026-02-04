@@ -1,7 +1,8 @@
 # Example Code
 
-```
+```{r}
 devtools::install_github('zhanglj37/fmmrt')
+library(fmmrt)
 
 # Fit the proposed model
 fit <- fmm_rt(responses, rt)
